@@ -1,0 +1,204 @@
+:root {
+  --primary-text-color: #434455;
+  --tittle-text-color: #2e2f42;
+  --primary-white-color: #ffffff;
+  --primary-bcg-color: #f4f4fd;
+}
+body {
+  color: #434455;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* logo */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 0, 75;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-item {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 0, 75;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--tittle-text-color);
+}
+/* header */
+.menu-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 0, 67;
+  letter-spacing: 0.02em;
+  color: var(--tittle-text-color);
+}
+.menu-link:hover {
+  color: #404bbf;
+}
+.contact-mail {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 0, 67;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.contact-phone-number {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 0, 67;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.contact-mail:hover {
+  color: #404bbf;
+}
+.contact-phone-number:hover {
+  color: #404bbf;
+}
+/* Hero */
+.main-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 0, 67;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-white-color);
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.main-btn:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.main-section {
+  background-color: var(--tittle-text-color);
+}
+.main-section-text {
+  font-family: "Roboto";
+  font-size: 56px;
+  line-height: 0, 93;
+  letter-spacing: 0.02em;
+  color: var(--primary-white-color);
+}
+/* Our Features */
+.features-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 0, 83;
+  letter-spacing: 0.02em;
+  color: var(--tittle-text-color);
+}
+.features-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 0, 66;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+/* What are we doing */
+
+/* Our team */
+.our-team {
+  background-color: var(--primary-bcg-color);
+}
+.team-card {
+  background-color: var(--primary-white-color);
+}
+.team-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 0, 83;
+  letter-spacing: 0.02em;
+  color: var(--tittle-text-color);
+}
+.team-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 0, 66;
+  letter-spacing: 0.02em;
+}
+/* footer */
+.footer {
+  background-color: var(--tittle-text-color);
+}
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 0, 66;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 0, 75;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-bcg-color);
+}
+/* Portfolio */
+.modal-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 0, 66;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+}
+.modal-btn:hover {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 0, 66;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-white-color);
+  background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.portfolio-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 0, 83;
+  letter-spacing: 0.02em;
+  color: var(--tittle-text-color);
+}
+.portfolio-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 0, 66;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
